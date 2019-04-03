@@ -1,0 +1,20 @@
+#lektuvas {
+    position:fixed;
+    width:500px;
+    height:150px;
+    opacity:1;
+    z-index:100;
+    top:100px;
+    background-image: url("http://clipart-library.com/images/8c65GEKoi.gif"); 
+    background-size: contain;
+    bottom:15%;
+    position:absolute;
+    -webkit-animation:linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 10s;
+}
+
+@-webkit-keyframes run {
+    0% { left: 100%;}
+    100%{ left: -500px;}
+}
